@@ -1,0 +1,69 @@
+.main-div{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.about-content-sec{
+    background-color: rgb(247 247 247);
+    padding-inline: 16%;
+    justify-content: start;
+    display: flex;
+    height: 120px;
+}
+.about-content-sec div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content-sec div h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.about-sec{
+    padding-top: 50px;
+    padding-inline: 24%;
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+}
+
+.about-sec div{
+    width: 400px;
+}
+
+.about-images{
+    justify-content: center;
+    padding-block: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-images .about-image{
+    margin-bottom: 20px;
+    background-color: bisque;
+    height: 20vw;
+    width: 20vw;
+    overflow: hidden;
+}
+
+.about-image img{
+    object-fit: cover;
+}
+
+.about-texts h2{
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+
+.about-texts p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
