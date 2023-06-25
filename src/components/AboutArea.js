@@ -8,11 +8,6 @@ import img3 from '../sources/kare_image4.jpg'
 export default function () {
   return (
     <div className='main-div'>
-        <div className='about-content-sec'>
-            <div>
-                <h3>HAKKIMIZDA</h3>
-            </div>
-        </div>
         <div className='about-sec'>
             <div className='about-images'>
                 <div className='about-image'><img src={img1}></img></div>

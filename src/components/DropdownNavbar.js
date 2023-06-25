@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/dropdownNavbar.css";
+import logo from "../sources/logo2.svg"
 
 export default function DropdownNavbar() {
   return (
     <div className="navbar-main-div">
       <header>
-        <a href="#" className="logo">
-          ARELYA
-        </a>
+      <img class="logo" src={logo}>
+      </img>
         
 
         <input type="checkbox" id="menu-bar"></input>

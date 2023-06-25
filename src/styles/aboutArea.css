@@ -25,6 +25,7 @@
 }
 
 .about-sec{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
     padding-top: 50px;
     padding-inline: 24%;
     justify-content: space-between;

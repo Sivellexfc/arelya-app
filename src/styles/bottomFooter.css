@@ -1,0 +1,51 @@
+footer .container{
+    padding-inline: 16%;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 50px;
+}
+
+.sec-links{
+    width: 45%;
+}
+
+footer .container div ul{
+
+    list-style: none;
+
+}
+
+.sec-about-us{
+    width: 30%;
+}
+
+.sec-about-us p{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.sec-about-us p{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.sec-about-us h2{
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+iframe{
+    outline: 0;
+    border: 0;
+}
+
+.bottom-copyrights-area{
+    display: flex;
+    justify-content: center;
+    padding-block: 10px;
+    background-color: white;
+}
+
+.bottom-copyrights-area p{
+ font-size: 15px;
+}
