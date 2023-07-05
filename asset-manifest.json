@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arelya-app/static/css/main.7315af92.css",
-    "main.js": "/arelya-app/static/js/main.8a17bbc2.js",
+    "main.css": "/arelya-app/static/css/main.0f9f67bb.css",
+    "main.js": "/arelya-app/static/js/main.a9382928.js",
     "static/js/787.dc21f058.chunk.js": "/arelya-app/static/js/787.dc21f058.chunk.js",
     "static/media/tavan.png": "/arelya-app/static/media/tavan.678d4045ae01fb946b16.png",
     "static/media/zemin.png": "/arelya-app/static/media/zemin.591111c986f3c37a900b.png",
@@ -13,12 +13,12 @@
     "static/media/logo2.svg": "/arelya-app/static/media/logo2.57b0e46343fbae273eef223070711534.svg",
     "static/media/logo.svg": "/arelya-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/arelya-app/index.html",
-    "main.7315af92.css.map": "/arelya-app/static/css/main.7315af92.css.map",
-    "main.8a17bbc2.js.map": "/arelya-app/static/js/main.8a17bbc2.js.map",
+    "main.0f9f67bb.css.map": "/arelya-app/static/css/main.0f9f67bb.css.map",
+    "main.a9382928.js.map": "/arelya-app/static/js/main.a9382928.js.map",
     "787.dc21f058.chunk.js.map": "/arelya-app/static/js/787.dc21f058.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7315af92.css",
-    "static/js/main.8a17bbc2.js"
+    "static/css/main.0f9f67bb.css",
+    "static/js/main.a9382928.js"
   ]
 }
