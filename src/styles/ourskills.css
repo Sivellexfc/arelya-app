@@ -1,0 +1,57 @@
+.skill-sec{
+    justify-content: space-around;
+    display: flex;
+    padding-block: 30px;
+    padding-inline: 16%;
+}
+.header{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header h3{
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #3383c6;
+    font-size: 17px;
+    padding-bottom: 0px;
+}
+.header h1{
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #535353;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.skill{
+    width: 300px;
+    height: 350px;
+    padding: 20px;
+}
+.skill div{
+    display: flex;
+    justify-content: center;
+}
+.skill p{
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.skill h4{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}

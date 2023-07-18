@@ -1,0 +1,38 @@
+.perspektif p{    
+    text-transform: none;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.perspektif{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pers-main{
+    padding-block: 120px;
+    background-color: white;
+    padding-inline: 18%;
+}
+
+.perspektif h3{
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #3383c6;
+    font-size: 18px;
+    padding-bottom: 0px;
+}
+
+.perspektif h1{
+    justify-content: center;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #535353;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}

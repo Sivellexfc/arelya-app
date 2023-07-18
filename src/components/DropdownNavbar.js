@@ -24,11 +24,23 @@ export default function DropdownNavbar() {
             <li>
               <a href="#">HİZMETLER</a>
               <ul>
-                <li><a href="#">ZEMİN KAPLAMA</a></li>
-                <li><a href="#">TAVAN KAPLAMA</a>
+                <li><a href="#">ZEMİN</a>
                     <ul>
-                        <li><a href="#">ASMA TAVAN</a></li>
-                        <li><a href="#">ALÇI TAVAN</a></li>
+                        <li><a href="#">HETEROJEN VİNİL</a></li>
+                        <li><a href="#">HOMOJEN VİNİL</a></li>
+                        <li><a href="#">SPOR VİNİL</a></li>
+                        <li><a href="#">KONDAKTİF VİNİL</a></li>
+                        <li><a href="#">LÜKS VİNİL</a></li>
+                        <li><a href="#">ALÜMİNYUM SÜPÜRGELİK</a></li>
+                        <li><a href="#">KARO HALI</a></li>
+                        <li><a href="#">YÜKSELTİLMİŞ DÖŞEME</a></li>
+                    </ul>
+                    </li>
+                <li><a href="#">TAVAN</a>
+                    <ul>
+                        <li><a href="#">BAFFLE ASMA TAVAN</a></li>
+                        <li><a href="#">PETEK ASMA TAVAN</a></li>
+                        <li><a href="#">MESH TAVAN</a></li>
                     </ul>
                 </li>
               </ul>
