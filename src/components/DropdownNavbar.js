@@ -6,8 +6,10 @@ export default function DropdownNavbar() {
   return (
     <div className="navbar-main-div">
       <header>
+      <a href="/">
       <img class="logo" src={logo}>
       </img>
+      </a>
         
 
         <input type="checkbox" id="menu-bar"></input>
@@ -16,7 +18,7 @@ export default function DropdownNavbar() {
         <nav className="navbar">
           <ul>
             <li>
-              <a href="#">ANASAYFA</a>
+              <a href="/">ANASAYFA</a>
             </li>
             <li>
               <a href="#">HAKKIMIZDA</a>
@@ -26,21 +28,21 @@ export default function DropdownNavbar() {
               <ul>
                 <li><a href="#">ZEMİN</a>
                     <ul>
-                        <li><a href="#">HETEROJEN VİNİL</a></li>
-                        <li><a href="#">HOMOJEN VİNİL</a></li>
-                        <li><a href="#">SPOR VİNİL</a></li>
-                        <li><a href="#">KONDAKTİF VİNİL</a></li>
-                        <li><a href="#">LÜKS VİNİL</a></li>
-                        <li><a href="#">ALÜMİNYUM SÜPÜRGELİK</a></li>
-                        <li><a href="#">KARO HALI</a></li>
-                        <li><a href="#">YÜKSELTİLMİŞ DÖŞEME</a></li>
+                        <li><a href="/heterojen-vinil">HETEROJEN VİNİL</a></li>
+                        <li><a href="/homojen-vinil">HOMOJEN VİNİL</a></li>
+                        <li><a href="/spor-vinil">SPOR VİNİL</a></li>
+                        <li><a href="/kondaktif-vinil">KONDAKTİF VİNİL</a></li>
+                        <li><a href="/luks-vinil-karo">LÜKS VİNİL KARO</a></li>
+                        <li><a href="/aluminyum-supurgelik">ALÜMİNYUM SÜPÜRGELİK</a></li>
+                        <li><a href="/karo-hali">KARO HALI</a></li>
+                        <li><a href="/yukseltilmis-doseme-sistemleri">YÜKSELTİLMİŞ DÖŞEME</a></li>
                     </ul>
                     </li>
                 <li><a href="#">TAVAN</a>
                     <ul>
-                        <li><a href="#">BAFFLE ASMA TAVAN</a></li>
-                        <li><a href="#">PETEK ASMA TAVAN</a></li>
-                        <li><a href="#">MESH TAVAN</a></li>
+                        <li><a href="/baffle-asma-tavan">BAFFLE ASMA TAVAN</a></li>
+                        <li><a href="/petek-asma-tavan">PETEK ASMA TAVAN</a></li>
+                        <li><a href="/mesh-asma-tavan">MESH TAVAN</a></li>
                     </ul>
                 </li>
               </ul>

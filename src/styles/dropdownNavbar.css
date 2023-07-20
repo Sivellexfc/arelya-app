@@ -104,8 +104,8 @@ header label{
 
 @media(max-width:991px){
     .logo{
-        width: 180px;
-        height: 0px;
+        width: 160px;
+        height: 50px;
         fill: #000000;
     }
     header{
@@ -158,4 +158,11 @@ header label{
     #menu-bar:checked ~ .navbar {
         display: initial;
     }
+}
+
+@media(max-width:1211px){
+    header{
+        padding-inline: 50px;
+    }
+
 }

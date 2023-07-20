@@ -14,6 +14,13 @@
 
 .slide-elemen-div h4{
     padding-block: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.slide-elemen-div p{
+    text-transform: none;
+    text-align: center;
 }
 
 .slide-elemen-div img{
@@ -34,7 +41,7 @@
 }
 
 
-.imgg:hover + .img-button-div .img-button {
+.imgg:hover + .img-button {
     opacity: 1;
 }
 .img-div{
@@ -50,8 +57,19 @@
     position: absolute;
 }
 .img-button{
+    border: 2px solid rgb(44, 117, 201);
+    background-color: rgba(44, 117, 201, 0);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0);
     transition: opacity 0.3s;
     opacity: 0;
     position: absolute;

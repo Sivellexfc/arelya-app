@@ -16,8 +16,8 @@
 }
 
 .zemin-images img{
-    width: 400px;
-    height: 400px;
+    width: 540px;
+    height: 720px;
 }
 .zemin-images{
     align-items: center;
@@ -59,10 +59,12 @@
 }
 
 .zemin-about{
+    
     margin-left: 50px;
 }
 
 .zemin-about h3{
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: #3383c6;
 }
@@ -76,6 +78,7 @@
 }
 
 .zemin-about h1{
+    font-size: 26px;
     font-family: 'Montserrat', sans-serif;
     color: #5B5B5B;
 }
@@ -84,8 +87,14 @@
     display: flex;
     flex-direction: column;
 }
+.zemin-about-div{
+    
+    align-items: center;
+    display: flex;
+}
 
 .zemin-about button{
+    font-size: 15px;
     padding: 12px 26px;
     text-align: left;
     color: #5B5B5B;

@@ -65,7 +65,11 @@
   
     border-left: 1px solid rgb(194, 194, 194);
 }
-
+@media(max-width: 1260px){
+    .top-footer{
+        display: none;
+    }
+}
 
 
 
