@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/arelya-app/static/css/main.4659f1fb.css",
-    "main.js": "/arelya-app/static/js/main.c7595d0f.js",
+    "main.css": "/arelya-app/static/css/main.ee3d01da.css",
+    "main.js": "/arelya-app/static/js/main.88244098.js",
     "static/js/787.dc21f058.chunk.js": "/arelya-app/static/js/787.dc21f058.chunk.js",
     "static/media/image-018.png": "/arelya-app/static/media/image-018.719959799c850168ef44.png",
     "static/media/image-021.png": "/arelya-app/static/media/image-021.b9524b4741791ace9603.png",
@@ -85,12 +85,12 @@
     "static/media/inovasyon-mavi.svg": "/arelya-app/static/media/inovasyon-mavi.0d717d4e8e28e63d43ef1708cbba148d.svg",
     "static/media/uzmanlik-mavi.svg": "/arelya-app/static/media/uzmanlik-mavi.602aca1bba1f6a84bcd88f8de4daca67.svg",
     "index.html": "/arelya-app/index.html",
-    "main.4659f1fb.css.map": "/arelya-app/static/css/main.4659f1fb.css.map",
-    "main.c7595d0f.js.map": "/arelya-app/static/js/main.c7595d0f.js.map",
+    "main.ee3d01da.css.map": "/arelya-app/static/css/main.ee3d01da.css.map",
+    "main.88244098.js.map": "/arelya-app/static/js/main.88244098.js.map",
     "787.dc21f058.chunk.js.map": "/arelya-app/static/js/787.dc21f058.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4659f1fb.css",
-    "static/js/main.c7595d0f.js"
+    "static/css/main.ee3d01da.css",
+    "static/js/main.88244098.js"
   ]
 }
