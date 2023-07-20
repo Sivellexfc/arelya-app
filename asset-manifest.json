@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/arelya-app/static/css/main.ee3d01da.css",
-    "main.js": "/arelya-app/static/js/main.88244098.js",
+    "main.js": "/arelya-app/static/js/main.f1d5035c.js",
     "static/js/787.dc21f058.chunk.js": "/arelya-app/static/js/787.dc21f058.chunk.js",
     "static/media/image-018.png": "/arelya-app/static/media/image-018.719959799c850168ef44.png",
     "static/media/image-021.png": "/arelya-app/static/media/image-021.b9524b4741791ace9603.png",
@@ -86,11 +86,11 @@
     "static/media/uzmanlik-mavi.svg": "/arelya-app/static/media/uzmanlik-mavi.602aca1bba1f6a84bcd88f8de4daca67.svg",
     "index.html": "/arelya-app/index.html",
     "main.ee3d01da.css.map": "/arelya-app/static/css/main.ee3d01da.css.map",
-    "main.88244098.js.map": "/arelya-app/static/js/main.88244098.js.map",
+    "main.f1d5035c.js.map": "/arelya-app/static/js/main.f1d5035c.js.map",
     "787.dc21f058.chunk.js.map": "/arelya-app/static/js/787.dc21f058.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee3d01da.css",
-    "static/js/main.88244098.js"
+    "static/js/main.f1d5035c.js"
   ]
 }
