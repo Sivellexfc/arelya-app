@@ -22,14 +22,21 @@
 }
 
 .title-content button{
-    background-color: rgb(44, 117, 201); /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+    color: black;
+    border-radius: 100px;
+    background-color: rgba(16, 147, 207, 0);/* Green */
+    border: 2.5px solid rgb(16 148 207);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.title-content button:hover{
+    cursor: pointer;
+    background-color: rgb(16 148 207);
+    color: white;
 }
 
 .title-content h2{
@@ -47,4 +54,72 @@
     padding-block: 10px;
     font-size: 18px;
 
+}
+@media(max-width: 1330px){
+    
+    .title-content h3{
+        font-size: 18px;
+    }
+    .title-content h2{
+        font-size: 24px;
+    }
+    .title-content p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 1030px){
+    .slide-img-sli-one{
+        content: url('../sources/slider/homojen-vinil.png');
+    }
+    .slide-img-sli-two{
+        content: url('../sources/slider/heterojen-vinil.png');
+    }
+    .slide-img-sli-three{
+        content: url('../sources/slider/luks-vinil.png');
+    }
+    .slide-img-sli-four{
+        content: url('../sources/slider/petek-asma.png');
+    }
+    .slide-img-sli-five{
+        content: url('../sources/slider/baffle-asma.png');
+    }
+    .slide-img-sli-six{
+        content: url('../sources/slider/karo-hali.png');
+    }
+    .title-content{
+        left: 25%;
+    }
+    .title-content h3{
+        font-size: 20px;
+    }
+    .title-content h2{
+        font-size: 26px;
+    }
+    .title-content p{
+        font-size: 16px;
+    }
+    .title-content button{
+        
+        padding: 12px 22px;
+        font-size: 14px;
+    }
+
+
+}
+
+
+@media(max-width: 800px){
+    .title-content{
+        left: 35%;
+        width: 60%;
+    }
+    .title-content h3{
+        font-size: 16px;
+    }
+    .title-content h2{
+        font-size: 18px;
+    }
+    .title-content p{
+        font-size: 12px;
+    }
 }

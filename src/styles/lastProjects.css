@@ -13,14 +13,21 @@
 }
 
 .slide-elemen-div h4{
+    text-align: center;
     padding-block: 10px;
     justify-content: center;
     display: flex;
 }
 
 .slide-elemen-div p{
+    font-size: 14px;
     text-transform: none;
     text-align: center;
+}
+
+.last-projects-swiper .swiper-wrapper{
+    display: flex;
+    justify-content: center;
 }
 
 .slide-elemen-div img{
@@ -45,7 +52,14 @@
     opacity: 1;
 }
 .img-div{
+    display: flex;
+    justify-content: center;
     position: relative;
+}
+
+.img-div img{
+    width: 200px;
+    height: auto;
 }
 .imgg:hover{
     opacity: 0.5;
@@ -57,7 +71,7 @@
     position: absolute;
 }
 .img-button{
-    border: 2px solid rgb(44, 117, 201);
+    border: 2px solid rgb(16 148 207);
     background-color: rgba(44, 117, 201, 0);
     color: white;
     padding: 15px 32px;
@@ -78,23 +92,15 @@
 .img-button:hover{
     opacity: 1;
     cursor: pointer;
-    background-color: rgb(44, 117, 201);
+    background-color: rgb(16 148 207);
 }
 
 .img-button:hover ~ .imgg {
     opacity: 0.5;
   }
 
-
-
-
-
-
-
-
-
-
 .last-proj-h3{
+    text-align: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -105,11 +111,20 @@
 }
 
 @media(max-width:991px){
+    .last-projects-swiper .swiper-wrapper{
+        display: flex;
+        justify-content: left;
+    }
+    .img-button{
+        padding: 10px 24px;
+        font-size: 12px;
+    }
+    .last-proj-h3{
+        font-size: 20px;
+    }
 
     .last-projects-div{
         padding-inline: 5%;
     }
-
-
 
 }

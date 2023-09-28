@@ -66,10 +66,11 @@
 .zemin-about h3{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-    color: #3383c6;
+    color: rgb(16 148 207);
 }
 
 .zemin-about p{
+    text-transform: none;
     width: 600px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -94,6 +95,9 @@
 }
 
 .zemin-about button{
+    transition: background-color 0.5s ease; 
+    display: flex;
+    justify-content: space-between;
     font-size: 15px;
     padding: 12px 26px;
     text-align: left;
@@ -107,7 +111,79 @@
 
 .zemin-about button:hover{
     cursor: pointer;
-    background-color: #479bfc;
+    background-color: rgb(16 148 207);
     color: white;
+}
+
+@media(max-width: 1260px){
     
+    .zemin-sec-top{
+        padding-bottom: 20px;
+        border-bottom: none;
+    }
+    .zemin-about p{
+        width: 400px;
+    }
+    .zemin-images img{
+        width: 400px;
+        height: auto;
+    }
+    .zemin-about button{
+        width: 300px;
+    }
+}
+
+@media(max-width: 900px){
+    .zemin-sec{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .zemin-images img{
+        width: 400px;
+        height: auto;
+    }
+    .zemin-images{
+        display: flex;
+        justify-content: center;
+    }
+    .zemin-sec-top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .zemin-about-div{
+        margin-top: 50px;
+    }
+    .zemin-about{
+        margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .zemin-about p {
+        text-align: center;
+    }
+
+    .zemin-about button{
+        width: 400px;
+    }
+}
+
+@media(max-width: 600px){
+    .zemin-images img{
+        width: 300px;
+        height: auto;
+    }
+    .zemin-about button{
+        width: 300px;
+    }
+    .zemin-about p{
+        width: 300px;
+    }
+    .zemin-about h1{
+        text-align: center;
+    }
 }

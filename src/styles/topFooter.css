@@ -1,9 +1,11 @@
 .top-footer{
-    height: 40px;
+    height: 50px;
     padding: 0 16%;
 }
 
 .top-footer{
+    border-bottom: 1px solid lightgray;
+    background: white;
     align-items: center;
     display: flex;
     
@@ -25,6 +27,7 @@
 }
 
 .right-ul li a{
+    
     font-family: 'Montserrat', sans-serif;
     color: #5B5B5B;
     align-items: center;
@@ -55,6 +58,8 @@
 }
 
 .top-footer ul li a{
+    font-weight: 500;
+    font-size: 15px;
     font-family: 'Montserrat', sans-serif;
     color: #5B5B5B;
     padding-inline: 10px;

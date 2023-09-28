@@ -5,6 +5,7 @@ import ProductInfo from "../components/ProductInfo";
 import Footer from "../components/Footer";
 
 import "../styles/product.css";
+import {AiOutlineArrowRight} from "react-icons/ai"
 
 import image_1 from "../sources/homojen-vinil/image-001.png";
 import image_5 from "../sources/homojen-vinil/image-002.png";
@@ -27,40 +28,40 @@ export default function () {
       <div className="about-product">
         <div className="about-product-div">
           <div className="button-section">
-          <a href="/homojen-vinil">
-                <button className="button-pro" style={{ color: "white", backgroundColor: "#2c75c9" }}>HOMOJEN VİNİL</button>
+          <a href="/zemin-uygulamalari/homojen-vinil">
+                <button className="button-pro" style={{ color: "white", backgroundColor: "#1094cf" }}>HOMOJEN VİNİL<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/heterojen-vinil">
+              <a href="/zemin-uygulamalari/heterojen-vinil">
                 <button className="button-pro">
-                  HETEROJEN VİNİL
+                  HETEROJEN VİNİL<AiOutlineArrowRight size={15}></AiOutlineArrowRight>
                 </button>
               </a>
-              <a href="/spor-vinil">
-                <button className="button-pro">SPOR VİNİL</button>
+              <a href="/zemin-uygulamalari/spor-vinil">
+                <button className="button-pro">SPOR VİNİL<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/kondaktif-vinil">
-                <button className="button-pro">KONDAKTİF VİNİL</button>
+              <a href="/zemin-uygulamalari/kondaktif-vinil">
+                <button className="button-pro">KONDAKTİF VİNİL<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/luks-vinil-karo">
-                <button className="button-pro">LÜKS VİNİL KARO</button>
+              <a href="/zemin-uygulamalari/luks-vinil-karo">
+                <button className="button-pro">LÜKS VİNİL KARO<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/aluminyum-supurgelik">
-                <button className="button-pro">ALÜMİNYUM SÜPÜRGELİK</button>
+              <a href="/zemin-uygulamalari/aluminyum-supurgelik">
+                <button className="button-pro">ALÜMİNYUM SÜPÜRGELİK<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/karo-hali">
-                <button className="button-pro">KARO HALI</button>
+              <a href="/zemin-uygulamalari/karo-hali">
+                <button className="button-pro">KARO HALI<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/yukseltilmis-doseme-sistemleri">
-                <button className="button-pro">YÜKSELTİLMİŞ DÖŞEME SİSTEMLERİ</button>
+              <a href="/zemin-uygulamalari/yukseltilmis-doseme-sistemleri">
+                <button className="button-pro">YÜKSELTİLMİŞ DÖŞEME SİSTEMLERİ<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/baffle-asma-tavan">
-                <button className="button-pro">BAFFLE ASMA TAVAN</button>
+              <a href="/tavan-uygulamalari/baffle-asma-tavan">
+                <button className="button-pro">BAFFLE ASMA TAVAN<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/petek-asma-tavan">
-                <button className="button-pro">PETEK ASMA TAVAN</button>
+              <a href="/tavan-uygulamalari/petek-asma-tavan">
+                <button className="button-pro">PETEK ASMA TAVAN<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/mesh-asma-tavan">
-                <button className="button-pro">MESH ASMA TAVAN</button>
+              <a href="/tavan-uygulamalari/mesh-asma-tavan">
+                <button className="button-pro">MESH ASMA TAVAN<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
           </div>
 
@@ -97,7 +98,7 @@ export default function () {
               <div className="bottom-seciton-div">
                 <div className="features">
                   <h3>ÖZELLİKLER</h3>
-                  <div className="divider"></div>
+                  <div style={{marginBottom:"30px"}} className="divider"></div>
                   <p>
                     <strong>Dayanıklılık</strong> Homojen vinil zemin kaplaması,
                     yoğun trafik alanlarına dayanacak şekilde tasarlanmıştır.

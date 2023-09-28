@@ -6,6 +6,8 @@ import Footer from "../components/Footer";
 
 import "../styles/product.css";
 
+import {AiOutlineArrowRight} from "react-icons/ai"
+
 import image_1 from "../sources/kondaktif-vinil/image-013.png";
 import image_2 from "../sources/kondaktif-vinil/image-014.png";
 import image_3 from "../sources/kondaktif-vinil/image-015.png";
@@ -27,40 +29,40 @@ export default function () {
         <div className="about-product">
           <div className="about-product-div">
             <div className="button-section">
-            <a href="/homojen-vinil">
-                <button className="button-pro">HOMOJEN VİNİL</button>
+            <a href="/zemin-uygulamalari/homojen-vinil">
+                <button className="button-pro">HOMOJEN VİNİL<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/heterojen-vinil">
+              <a href="/zemin-uygulamalari/heterojen-vinil">
                 <button className="button-pro">
-                  HETEROJEN VİNİL
+                  HETEROJEN VİNİL<AiOutlineArrowRight size={15}></AiOutlineArrowRight>
                 </button>
               </a>
-              <a href="/spor-vinil">
-                <button className="button-pro">SPOR VİNİL</button>
+              <a href="/zemin-uygulamalari/spor-vinil">
+                <button className="button-pro">SPOR VİNİL<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/kondaktif-vinil">
-                <button className="button-pro" style={{ color: "white", backgroundColor: "#2c75c9" }}>KONDAKTİF VİNİL</button>
+              <a href="/zemin-uygulamalari/kondaktif-vinil">
+                <button className="button-pro" style={{ color: "white", backgroundColor: "#1094cf" }}>KONDAKTİF VİNİL</button>
               </a>
-              <a href="/luks-vinil-karo">
-                <button className="button-pro">LÜKS VİNİL KARO</button>
+              <a href="/zemin-uygulamalari/luks-vinil-karo">
+                <button className="button-pro">LÜKS VİNİL KARO<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/aluminyum-supurgelik">
-                <button className="button-pro">ALÜMİNYUM SÜPÜRGELİK</button>
+              <a href="/zemin-uygulamalari/aluminyum-supurgelik">
+                <button className="button-pro">ALÜMİNYUM SÜPÜRGELİK<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/karo-hali">
-                <button className="button-pro">KARO HALI</button>
+              <a href="/zemin-uygulamalari/karo-hali">
+                <button className="button-pro">KARO HALI<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/yukseltilmis-doseme-sistemleri">
-                <button className="button-pro">YÜKSELTİLMİŞ DÖŞEME SİSTEMLERİ</button>
+              <a href="/zemin-uygulamalari/yukseltilmis-doseme-sistemleri">
+                <button className="button-pro">YÜKSELTİLMİŞ DÖŞEME SİSTEMLERİ<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/baffle-asma-tavan">
-                <button className="button-pro">BAFFLE ASMA TAVAN</button>
+              <a href="/tavan-uygulamalari/baffle-asma-tavan">
+                <button className="button-pro">BAFFLE ASMA TAVAN<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/petek-asma-tavan">
-                <button className="button-pro">PETEK ASMA TAVAN</button>
+              <a href="/tavan-uygulamalari/petek-asma-tavan">
+                <button className="button-pro">PETEK ASMA TAVAN<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
-              <a href="/mesh-asma-tavan">
-                <button className="button-pro">MESH ASMA TAVAN</button>
+              <a href="/tavan-uygulamalari/mesh-asma-tavan">
+                <button className="button-pro">MESH ASMA TAVAN<AiOutlineArrowRight size={15}></AiOutlineArrowRight></button>
               </a>
             </div>
 
@@ -75,7 +77,7 @@ export default function () {
                     <h3>KONDAKTİF VİNİL</h3>
                     <div className="divider"></div>
                     <p>
-                      <strong>Kondaktif vinil nedir?</strong> Kondaktif vinil mükemmel aşınma dayanımı (Aşında grubu T) ve temizleme özellikleri için PUR ile güçlendirilmiş homojen, iletken, esnek zemin kaplamasıdır.
+                      <strong>Kondaktif vinil nedir?</strong> Kondaktif vinil mükemmel aşınma dayanımı (Aşınma grubu T) ve temizleme özellikleri için PUR ile güçlendirilmiş homojen, iletken, esnek zemin kaplamasıdır.
                     </p>
                     <p>
                       Gelişmiş iletkenlik özellikleri, sürekli ürünün içinden geçen siyah karbon tanecikleri ve saf karbon tabanı ile sağlanır.
@@ -91,7 +93,7 @@ export default function () {
                 <div className="bottom-seciton-div">
                   <div className="features">
                     <h3>ÖZELLİKLER</h3>
-                    <div className="divider"></div>
+                    <div style={{marginBottom:"30px"}} className="divider"></div>
                     <p>
                       <strong>Elektrostatik Kontrol</strong> Kondaktif vinil kaplama, elektrostatik yüklerin doğru bir şekilde kontrol edilmesini sağlar. Bu özellik, elektronik cihazların, hassas ekipmanların ve elektrikli bileşenlerin güvenli bir şekilde kullanılmasını sağlar.
                     </p>

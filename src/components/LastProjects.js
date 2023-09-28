@@ -2,8 +2,9 @@ import React from "react";
 import "../styles/lastProjects.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay, Pagination } from "swiper";
+import { useMediaQuery } from 'react-responsive';
+
 import "swiper/css";
-import "../sources/zemin1.jpg";
 import "../styles/slider.css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -14,46 +15,59 @@ import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
 
-import img1 from "../sources/zemin_is1.jpg";
-import proje1 from "../sources/referanslar-logo/deneme/proje1.jpg";
+
+import  hayat1 from "../sources/last-projects/hayat-hastanesi/1.jpg"
+import  hayat2 from "../sources/last-projects/hayat-hastanesi/2.jpg"
+import  hayat3 from "../sources/last-projects/hayat-hastanesi/3.jpg"
+import  hayat4 from "../sources/last-projects/hayat-hastanesi/4.jpg"
+
+import  orhan1 from "../sources/last-projects/orhan-holding/1.jpg"
+import  orhan2 from "../sources/last-projects/orhan-holding/2.jpg"
+import  orhan3 from "../sources/last-projects/orhan-holding/3.jpg"
+import  orhan4 from "../sources/last-projects/orhan-holding/4.jpg"
+
+import  tekstil1 from "../sources/last-projects/tekstil-fabrikasi/1.jpg"
+import  tekstil2 from "../sources/last-projects/tekstil-fabrikasi/2.jpg"
+import  tekstil3 from "../sources/last-projects/tekstil-fabrikasi/3.jpg"
+import  tekstil4 from "../sources/last-projects/tekstil-fabrikasi/4.jpg"
+import  tekstil5 from "../sources/last-projects/tekstil-fabrikasi/5.jpg"
+import  tekstil6 from "../sources/last-projects/tekstil-fabrikasi/6.jpg"
+
 
 export default function () {
   const images = [
     [
-      {
-        src: "https://img.freepik.com/premium-photo/number-0_2227-158.jpg?w=2000",
-      },
+      {src: hayat1},{src: hayat2},{src: hayat3},{src: hayat4},
     ],
     [
-      {
-        src: "https://i.etsystatic.com/20341642/r/il/8be8cd/2572122727/il_fullxfull.2572122727_2qhg.jpg",
-      },
+      {src: orhan1},{src: orhan2},{src: orhan3},{src: orhan4},
     ],
 
     [
-      {
-        src: "https://static8.depositphotos.com/1338574/829/i/450/depositphotos_8292993-stock-photo-the-number-2-in-gold.jpg",
-      },
-    ],
-
-    [
-      {
-        src: "https://media.istockphoto.com/id/939173414/tr/foto%C4%9Fraf/parlak-neon-yaz%C4%B1-tipi-say%C4%B1-3.jpg?s=612x612&w=0&k=20&c=3o42wbD3SNm5IhXDGvD1yhQ5pvI4VAAFJ7l9Ql4Qc2M=",
-      },
-    ],
-
-    [
-      {
-        src: "https://media.istockphoto.com/id/1040247010/photo/number-4-four-fourth-3d-green-sign-isolated.jpg?s=170667a&w=0&k=20&c=6Gdy5WOxnRqqKF7385zlHBMlhNyGfXuh7YYXjKZGKTk=",
-      },
-    ],
+      {src: tekstil1},{src: tekstil2},{src: tekstil3},{src: tekstil4},{src: tekstil5},{src: tekstil6},
+    ]
   ];
+
+  const isLargeScreen = useMediaQuery({ minWidth: 1200 });
+  const isMediumScreen = useMediaQuery({ minWidth: 768 });
+  
+  let slidesPerView = 1;
+  let spaceBetween = 20;
+
+  if (isLargeScreen) {
+    slidesPerView = 4;
+    spaceBetween = 100;
+  } else if (isMediumScreen) {
+    slidesPerView = 3;
+    spaceBetween = 75;
+  } else {
+    slidesPerView = 2;
+    spaceBetween = 50;
+  }
 
   const [open, setOpen] = React.useState([false, false, false, false, false]);
 
   const handleClick = (index) => {
-    console.log("aktif edildi :");
-    console.log(index);
     const updatedArray = [...open];
     updatedArray[index] = !updatedArray[index];
     setOpen(updatedArray);
@@ -63,12 +77,14 @@ export default function () {
     <div className="last-projects-div">
       <div className="head-div">
         <h3 className="last-proj-h3">SON PROJELERİMİZDEN SEÇMELER</h3>
-        <div className="divider"></div>
+        <div style={{marginBottom:"10px"}} className="divider"></div>
       </div>
+      <div className="last-projects-swiper">
       <Swiper
+        
         simulateTouch={false}
-        spaceBetween={100}
-        slidesPerView={4}
+        spaceBetween={spaceBetween}
+        slidesPerView={slidesPerView}
         navigation={true}
         autoplay={{
           disableOnInteraction: true,
@@ -80,7 +96,7 @@ export default function () {
         <SwiperSlide>
           <div className="slide-elemen-div">
             <div className="img-div">
-              <img className="imgg" src={proje1}></img>
+              <img className="imgg" src={hayat2}></img>
 
               <button
                 type="button"
@@ -91,8 +107,8 @@ export default function () {
               </button>
             </div>
             <div>
-              <h4>Hasta Kayıt Alanı</h4>
-              <p>Burulaş merkez binası zeminini kapladık</p>
+              <h4>Hayat Hastanesi</h4>
+              <p>Hastane Danışma Alanı Zeminine Tarkett Exellence 80 Triange Wood Chalk imzası</p>
             </div>
             <Lightbox
               plugins={[Thumbnails]}
@@ -105,7 +121,7 @@ export default function () {
         <SwiperSlide>
           <div className="slide-elemen-div">
             <div className="img-div">
-              <img className="imgg" src={img1}></img>
+              <img className="imgg" src={orhan4}></img>
               
                 <button
                   type="button"
@@ -116,8 +132,8 @@ export default function () {
                 </button>
             </div>
             <div>
-              <h4>1 Burulaş merkezi zemin kaplama</h4>
-              <p>Burulaş merkez binası zeminini kapladık</p>
+              <h4>Orhan Holding</h4>
+              <p>Yemekhane Zeminine Tarkett Acczent Exellence 80 Terrazzo Terracotta imzası</p>
             </div>
             <Lightbox
                   plugins={[Thumbnails]}
@@ -130,7 +146,7 @@ export default function () {
         <SwiperSlide>
           <div className="slide-elemen-div">
             <div className="img-div">
-              <img className="imgg" src={img1}></img>
+              <img className="imgg" src={tekstil3}></img>
               
                 <button
                   type="button"
@@ -142,7 +158,7 @@ export default function () {
                 
             </div>
             <div>
-              <h4>2 Burulaş merkezi zemin kaplama</h4>
+              <h4>Kızılırmak Tekstil</h4>
               <p>Burulaş merkez binası zeminini kapladık</p>
             </div>
             <Lightbox
@@ -153,58 +169,8 @@ export default function () {
                 />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="slide-elemen-div">
-            <div className="img-div">
-              <img className="imgg" src={img1}></img>
-                <button
-                  type="button"
-                  className="img-button"
-                  onClick={() => handleClick(3)}
-                >
-                  GALERİ
-                </button>
-                
-            </div>
-            <div>
-              <h4>3 Burulaş merkezi zemin kaplama</h4>
-              <p>Burulaş merkez binası zeminini kapladık</p>
-            </div>
-            <Lightbox
-                  plugins={[Thumbnails]}
-                  open={open[3]}
-                  close={() => handleClick(3)}
-                  slides={images[3]}
-                />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slide-elemen-div">
-            <div className="img-div">
-              <img className="imgg" src={img1}></img>
-                <button
-                  type="button"
-                  className="img-button"
-                  onClick={() => handleClick(4)}
-                >
-                  GALERİ
-                </button>
-                
-            </div>
-            
-            <div>
-              <h4>4 Burulaş merkezi zemin kaplama</h4>
-              <p>Burulaş merkez binası zeminini kapladık</p>
-            </div>
-            <Lightbox
-                  plugins={[Thumbnails]}
-                  open={open[4]}
-                  close={() => handleClick(4)}
-                  slides={images[4]}
-                />
-          </div>
-        </SwiperSlide>
       </Swiper>
+      </div>
     </div>
   );
 }
