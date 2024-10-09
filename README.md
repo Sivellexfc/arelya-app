@@ -4,7 +4,7 @@ This project was made for [arelya.com.tr](https://arelya.com.tr/).
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/2c8a9b2d-152d-4aab-99c1-4badf75a9670" alt="cart" width="400"/>
+  <img src="https://github.com/user-attachments/assets/2c8a9b2d-152d-4aab-99c1-4badf75a9670" alt="cart" width="600"/>
 </div>
 
 ## Available Scripts
