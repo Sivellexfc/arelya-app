@@ -2,7 +2,6 @@
 
 This project was made for [arelya.com.tr](https://arelya.com.tr/).
 
-![arelya](https://github.com/user-attachments/assets/2c8a9b2d-152d-4aab-99c1-4badf75a9670)
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2c8a9b2d-152d-4aab-99c1-4badf75a9670" alt="cart" width="400"/>
